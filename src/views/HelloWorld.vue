@@ -54,9 +54,10 @@ export default {
 }
 .front{
   background-image: url('../assets/backone.jpg');
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+ background-size: 100% 100%;
+ height: 100%;
+ width: 100%;
+  object-fit: contain;
   position: fixed;
   margin: auto;
   padding: 1% 0px;

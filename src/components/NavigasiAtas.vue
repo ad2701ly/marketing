@@ -1,11 +1,10 @@
 <template>
   <div>
-    <b-navbar type="is-info" :mobile-burger="false">
-      <template slot="brand">
-        <b-navbar-item><b-icon icon="login"></b-icon> <span>Login</span> </b-navbar-item>
-        <b-navbar-item>Register</b-navbar-item>
-      </template>
-    </b-navbar>
+    <nav class="nav">
+
+        <b-button type="is-info" icon-left="login">Login</b-button>
+
+    </nav>
   </div>
 </template>
 
@@ -15,6 +14,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.nav{
+  color: aqua;
+}
 </style>

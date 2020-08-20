@@ -22,7 +22,6 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital@1&family=Source+Sans+Pro:ital,wght@1,900&display=swap');
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

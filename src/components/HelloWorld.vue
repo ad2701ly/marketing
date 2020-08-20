@@ -53,7 +53,7 @@ export default {
   text-shadow: 2px 2px white;
 }
 .front{
-  background-image: url('./backone.jpg');
+  background-image: url('../assets/backone.jpg');
   height: 100%;
   width: 100%;
   object-fit: cover;
